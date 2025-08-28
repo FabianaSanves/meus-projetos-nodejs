@@ -1,0 +1,48 @@
+<!-- HTML5 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Fabiana" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro código com JS</title>
+
+    <!-- CSS -->
+    <style>
+        body {background-color:darkslategrey; color:beige;}
+    </style>
+
+    <!-- HTML5 -->
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <h2>Hello, world!</h2>
+
+    <p>Este é um exemplo de html5 e CSS </p>
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        // window.prompt: caixa para digitação
+        // let - variável que pode mudar
+        // const - variável imutável
+        let nome, sobrenome, idade;
+        nome = window.prompt('Digite seu nome:');
+        sobrenome = window.prompt('Digite seu sobrenome:');
+        idade = window.prompt('Qual sua idade?');
+
+        let cidadeResidencia = window.prompt('Digite a cidade onde você mora:');
+        const naturalidade = window.prompt('Natural de:');
+
+        // + no JS = adição e concatenação
+        window.alert('Meu nome é ' + nome + ' ' + sobrenome);
+        window.alert('Minha idade é ' + idade);
+        window.alert('Sou natural de: ' + naturalidade);
+        window.alert('Moro em: ' + cidadeResidencia);
+
+            // window.alert: caixa de alerta
+        window.alert ('Sucesso!');
+
+    </script>
+
+</body>
+</html>
