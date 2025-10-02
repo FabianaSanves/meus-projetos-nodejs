@@ -18,16 +18,3 @@ function gerarTabuada(numero) {
 
 gerarTabuada(numero);
 
-gerarTabuada(numero);
-
-gerarTabuada(numero);
-
-gerarTabuada(numero);
-
-gerarTabuada(numero);
-
-gerarTabuada(numero);
-
-gerarTabuada(numero);
-
-gerarTabuada(numero);
